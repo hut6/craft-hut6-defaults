@@ -59,7 +59,7 @@ class Seo_InstallController extends BaseController
                 $fieldDescription = new FieldModel();
                 $fieldDescription->id = null;
                 $fieldDescription->groupId = $group_id;
-                $fieldDescription->name = "Seo Description";
+                $fieldDescription->name = "SEO Description";
                 $fieldDescription->handle = "seoDescription";
                 $fieldDescription->instructions = "";
                 $fieldDescription->translatable = true;
@@ -93,6 +93,7 @@ class Seo_InstallController extends BaseController
                 $this->returnJson(array(
                     'success' => true
                 ));
+                
             } else {
                 $this->returnJson(array(
                     'errors' => $group->getErrors(),
