@@ -104,7 +104,10 @@ class Seo_InstallController extends BaseController
                 'errors' => $source->getErrors(),
             ));
         }
-        $this->returnJson([1, 2, 3]);
+
+        $this->returnJson(array(
+            'success' => false
+        ));
     }
 
 }
