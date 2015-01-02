@@ -1,7 +1,7 @@
 <?php
 namespace Craft;
 
-class SeoPlugin extends BasePlugin
+class Hut6defaultsPlugin extends BasePlugin
 {
     
     function getName()
