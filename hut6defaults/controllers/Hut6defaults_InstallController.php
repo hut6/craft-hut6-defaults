@@ -1,7 +1,7 @@
 <?php
 namespace Craft;
 
-class Seo_InstallController extends BaseController
+class Hut6defaults_InstallController extends BaseController
 {
     protected $allowAnonymous = true;
 
@@ -68,7 +68,7 @@ class Seo_InstallController extends BaseController
                 $fieldImage = new FieldModel();
                 $fieldImage->id = null;
                 $fieldImage->groupId = $group_id;
-                $fieldImage->name = "Seo Image";
+                $fieldImage->name = "SEO Image";
                 $fieldImage->handle = "seoImage";
                 $fieldImage->instructions = "";
                 $fieldImage->translatable = true;

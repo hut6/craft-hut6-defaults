@@ -26,7 +26,7 @@ class Hut6defaultsPlugin extends BasePlugin
 
     public function getSettingsHtml()
     {
-        return craft()->templates->render('seo/_settings', array(
+        return craft()->templates->render('hut6defaults/_settings', array(
             'settings' => $this->getSettings()
         ));
     }
